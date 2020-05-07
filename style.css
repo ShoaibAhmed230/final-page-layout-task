@@ -121,19 +121,22 @@ span{
 .hd5a, .hd5b, .hd5c, .hd5d{
       color: white;
       font-size: 26px;
+      max-width: 30%;
 
 }
 .box5{
     background-color: #620e6e;
     width: 257px;
     height: 200px;
-    margin-top: 84px;
+    margin: 16px;
+    
     padding: 3px 19px;
 }
 .box6{
-    width: 257px;
+   
     height: 200px;
-    margin-top: 84px;
+    margin: 24px;
+  
     padding: 3px 19px;
     background-color: #4385c1;   
 }
@@ -141,38 +144,179 @@ span{
     color: white;
       font-size: 26px;
 }
-.box7{
+.box7, .box8{
     width: 257px;
     height: 200px;
     margin-top: 84px;
     padding: 3px 19px;
+  
     
 }
-.hd7{
+.uses{
     color: black;
     font-size: 20px;
 }
-.box7a{
+.box7a, .box8a{
       border: 1px solid;
-      height: 115px;
-      width:100px;
+      height: 84px;
+      width:86px;
 }
-.hd7a{
+.hd7b, .hd8b{
     color: #7aa120;
-    font-size: 26px ;
-    margin-left: 25px;
-    margin-bottom: 35px;
+    font-size: 23px ;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
-.hd7b{
+.hd7c, .hd8c{
     color: #7aa120;
-    font-size: 62px;
-    margin-left: 19px;
+    font-size: 56px;
+    margin-left: 10px;
     margin-bottom: -15px;
     margin-top: -34px;
 }
 .clndr1{
        display: flex;
+
 }
-.p7{
+.lin{
     color: cornflowerblue;
+    font-size: 10px;
+    padding-top: 20px;
+    margin-left: 50px;
+   
 }
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hd8d{
+    color: cornflowerblue;
+    font-size: 19px;
+    padding-top: 20px;
+    margin-left: 50px;
+}
+.about{
+    display: flex;
+    
+}
+.clndr1{
+    display: flex;
+    margin: 12px;
+}
+.about-next-date{
+    margin: 12px;
+}
+.calender{
+    max-width: 30%;
+
+}
+.take{
+    width: 30%;
+}
+.all-buttons button{
+    color: cornflowerblue; 
+    font-size: 11px;
+    border: 1px solid cornflowerblue ;
+    margin: 30px 50px;
+    padding: 12px 35px;
+    border-radius: 4px;
+    background-color: white
+}
+.footer{
+      width: 100%;
+      display: flex;
+      background-color: #34383C;
+}
+.academic{
+    margin-left: 46px;
+    color: white;
+    padding-top: 30px;
+}
+.academic-details{
+    color: #B1B6BB;
+    list-style: none;
+    padding: 2px 43px;
+    font-size: 12px;
+}
+ .addmission{
+    margin-left: 40px;
+    color: white;
+    padding-top: 38px;
+    font-size: 20px;
+ }   
+ .addimission-financial{
+    color: #B1B6BB;
+    list-style: none;
+    padding: 2px 43px;
+    font-size: 12px;
+ }
+ .student-life{
+    margin-left: 40px;
+    color: white;
+    padding-top: 38px;
+    font-size: 20px;
+ }
+.student-life-style{
+    color: #B1B6BB;
+    list-style: none;
+    padding: 2px 43px;
+    font-size: 12px;
+}
+
+.about1{
+    margin-left: 40px;
+    color: white;
+    padding-top: 38px;
+    font-size: 20px;
+}
+.simmons-details{
+    color: #B1B6BB;
+    list-style: none;
+    padding: 2px 43px;
+    font-size: 12px;
+ }
+.Alummnae-friends{
+    margin-left: 40px;
+    color: white;
+    padding-top: 38px;
+    font-size: 20px;
+}
+.friends{
+    color: #B1B6BB;
+    list-style: none;
+    padding: 2px 43px;
+    font-size: 12px;
+}
+
+.resource{
+    margin-left: 40px;
+    color: white;
+    padding-top: 38px;
+    font-size: 20px;
+}
+.for{
+    color: #B1B6BB;
+    list-style: none;
+    padding: 2px 43px;
+    font-size: 12px;
+}
+.heads{
+    margin-left: 40px;
+    color: white;
+    padding-top: 38px;
+    font-size: 14px;
+}
+.hr{
+    
+    background-color:  #34383C ;
+}
+.contact-details{
+    background-color:  #34383C ;
+    color: white;
+    text-align: center;
+    margin-top: -17px;
+    padding: 15px;
+}
+
+
